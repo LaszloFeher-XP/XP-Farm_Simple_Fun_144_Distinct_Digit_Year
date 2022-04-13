@@ -1,10 +1,10 @@
 class Kata {
 
-    func() {
-
-    }
+  distinctDigitYear(year) {
+    return;
+  }
 }
 
 module.exports = {
-    Kata,
+  Kata,
 };
