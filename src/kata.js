@@ -1,7 +1,7 @@
 class Kata {
 
   distinctDigitYear(year) {
-    for (let i = year + 1; i <= 2040; i++) {
+    for (let i = year + 1; i <= 9000; i++) {
       let yearValues = `${i}`.split('');
       let result = yearValues.filter(y =>
         yearValues.filter(d => d === y).length === 1);

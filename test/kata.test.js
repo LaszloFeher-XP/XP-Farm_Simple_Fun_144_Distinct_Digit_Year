@@ -10,6 +10,11 @@ describe('First story', () => {
     const kata = new Kata();
     expect(kata.distinctDigitYear(2019)).toStrictEqual(2031);
   });
+
+  test('GIVEN 1987 WHEN logic THEN should return 2013', () => {
+    const kata = new Kata();
+    expect(kata.distinctDigitYear(1987)).toStrictEqual(2013);
+  });
 });
 
 
